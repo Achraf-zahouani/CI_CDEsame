@@ -1,7 +1,7 @@
-# Utilizza un'immagine base di Node.js
+# Specifica l'immagina base
 FROM node:14
 
-# Imposta la directory di lavoro
+# Imposta la directory di lavoro del container
 WORKDIR /usr/src/app
 
 # Copia i file di package e package-lock
